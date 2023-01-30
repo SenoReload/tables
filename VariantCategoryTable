@@ -144,13 +144,18 @@ public class CALX_VariantCategory extends common
 		</AxTableIndex>
 		<AxTableIndex>
 			<Name>ProductCategory</Name>
-			<AlternateKey>Yes</AlternateKey>
 			<Fields>
 				<AxTableIndexField>
 					<DataField>Product</DataField>
 				</AxTableIndexField>
 				<AxTableIndexField>
 					<DataField>Category</DataField>
+				</AxTableIndexField>
+				<AxTableIndexField>
+					<DataField>CategoryHierarchy</DataField>
+				</AxTableIndexField>
+				<AxTableIndexField>
+					<DataField>EcoResDistinctProductVariant</DataField>
 				</AxTableIndexField>
 			</Fields>
 		</AxTableIndex>
