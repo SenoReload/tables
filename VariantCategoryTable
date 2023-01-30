@@ -184,9 +184,9 @@ public class CALX_VariantCategory extends common
 	<Relations>
 		<AxTableRelation>
 			<Name>EcoResCategory</Name>
-			<Cardinality>ZeroMore</Cardinality>
+			<Cardinality>ExactlyOne</Cardinality>
 			<RelatedTable>EcoResCategory</RelatedTable>
-			<RelatedTableCardinality>ZeroOne</RelatedTableCardinality>
+			<RelatedTableCardinality>ExactlyOne</RelatedTableCardinality>
 			<Constraints>
 				<AxTableRelationConstraint xmlns=""
 					i:type="AxTableRelationConstraintField">
@@ -198,9 +198,9 @@ public class CALX_VariantCategory extends common
 		</AxTableRelation>
 		<AxTableRelation>
 			<Name>EcoResCategoryHierarchy</Name>
-			<Cardinality>ZeroMore</Cardinality>
+			<Cardinality>ExactlyOne</Cardinality>
 			<RelatedTable>EcoResCategoryHierarchy</RelatedTable>
-			<RelatedTableCardinality>ZeroOne</RelatedTableCardinality>
+			<RelatedTableCardinality>ExactlyOne</RelatedTableCardinality>
 			<Constraints>
 				<AxTableRelationConstraint xmlns=""
 					i:type="AxTableRelationConstraintField">
@@ -212,9 +212,9 @@ public class CALX_VariantCategory extends common
 		</AxTableRelation>
 		<AxTableRelation>
 			<Name>EcoResDistinctProductVariant</Name>
-			<Cardinality>ZeroMore</Cardinality>
+			<Cardinality>ExactlyOne</Cardinality>
 			<RelatedTable>EcoResDistinctProductVariant</RelatedTable>
-			<RelatedTableCardinality>ZeroOne</RelatedTableCardinality>
+			<RelatedTableCardinality>ExactlyOne</RelatedTableCardinality>
 			<Constraints>
 				<AxTableRelationConstraint xmlns=""
 					i:type="AxTableRelationConstraintField">
